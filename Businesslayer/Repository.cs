@@ -31,5 +31,15 @@ namespace Businesslayer
         {
             return await db.CreateCustomerAsync(customer);
         }
+
+        public async Task<int> CreateInvoice(List<int> productsId, string mail)
+        {
+            return await db.CreateInvoice(productsId, mail);
+        }
+
+        public async Task<bool> getCostumerAsynce(string mail)
+        {
+            return await db.getCostumerAsynce(mail);
+        }
     }
 }
