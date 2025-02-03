@@ -13,7 +13,7 @@ namespace database
 {
     public class Db
     {
-        string connectionString = "server=77.237.238.253;user=nico622f;database=master;port=3306;password=!Xrq22baw";
+        string connectionString = "server=77.237;user=nic62f;atbse=matr;pr336;pasord=!rq22aw";//serveren er ikke tilgængelig længere
 
 
         public async Task<List<DtoProductInventory>> GetAll()
